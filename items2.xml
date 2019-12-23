@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<test_report>
+ <uuts>
+  <uut>
+   <summary>
+    <part_number>31-001197-03-01</part_number>
+    <serial_number>113710008405</serial_number>
+    <status>Pass</status>
+    <started_at>2019-01-02 13:45:35</started_at>
+    <ended_at>2019-01-02 13:52:50</ended_at>
+    <operation>Functional</operation>
+    <lot_number>wo123123</lot_number>
+    <operator_name>operator_name</operator_name>
+    <fixture_ident>fixture_ident</fixture_ident>
+    <fixture_socket>fixture_socket</fixture_socket>
+    <program_name>program_name</program_name>
+    <program_version>program_version</program_version>
+   </summary>
+   <tests>
+    <test>
+     <name>UUT Setup</name>
+     <status>Passed</status>
+     <number/>
+     <runtime/>
+    </test>
+   </tests>
+   <tests>
+    <test>
+     <name>fn</name>
+     <status>Passed</status>
+     <runtime/>
+     <measurements>
+      <measurement>
+       <name>Successful</name>
+       <status>Passed</status>
+       <measured>2</measured>
+       <min>2</min>
+       <max/>
+       <comparator/>
+       <unit>89</unit>
+      </measurement>
+     </measurements>
+     <name>fn</name>
+     <status>Passed</status>
+     <runtime/>
+     <measurements>
+      <measurement>
+       <name>Successful</name>
+       <status>Passed</status>
+       <measured>3</measured>
+       <min/>
+       <max>5</max>
+       <comparator>GELE</comparator>
+       <unit/>
+      </measurement>
+     </measurements>
+    </test>
+   </tests>
+   <property_groups>
+    <property_group>
+     <name>Configuration Sector</name>
+     <properties>
+      <property>
+       <name>RDR</name>
+       <value>4</value>
+       <name>RDR</name>
+       <value>4</value>
+      </property>
+     </properties>
+    </property_group>
+   </property_groups>
+  </uut>
+ </uuts>
+</test_report>
